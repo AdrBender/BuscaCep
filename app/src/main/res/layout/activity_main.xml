@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent">
+		<EditText
+        	android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+        	android:hint="UF"
+        	android:id="@+id/edit_uf"
+        	android:textSize="25sp"
+        	android:inputType="textPersonName"/>
+		<EditText
+        	android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+        	android:hint="LOCALIDADE"
+        	android:id="@+id/edit_loc"
+        	android:textSize="25sp"
+        	android:inputType="textPersonName"/>
+		<EditText
+        	android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+        	android:hint="LOGRADOURO"
+        	android:id="@+id/edit_log"
+        	android:textSize="25sp"
+        	android:inputType="text"/>
+
+    	<Button
+        	android:background="@color/colorPrimary"
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:id="@+id/btn_buscaCep"
+			android:onClick="btnBuscarCep"
+        	android:layout_marginBottom="10dp"
+        	android:padding="10dp"
+        	android:text="Buscar"
+        	android:textSize="22sp"
+			android:textColor="#FDFDFD"/>
+	</LinearLayout>
+	
+	<ListView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/list_view" />
+</LinearLayout>

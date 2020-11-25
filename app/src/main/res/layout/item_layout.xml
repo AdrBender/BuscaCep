@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" >
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/txt_cep"
+		android:textColor="#000000"
+		android:textSize="20sp"/>
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/txt_logradouro"
+		android:layout_below="@+id/txt_cep"
+		android:textColor="#7D9848"
+		android:textSize="20sp"/>
+	
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/txt_bairro"
+		android:textColor="#3F8B16"
+		android:textSize="20sp"/>
+	
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/txt_localidade"
+		android:textColor="#7D9848"
+		android:textSize="20sp"/>
+	
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/txt_uf"
+		android:textColor="#7D9848"
+		android:textSize="20sp"/>
+
+</LinearLayout>
